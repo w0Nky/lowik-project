@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Lowik</title>
+
+    <!-- Bootstrap -->
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/bootstrap-social.css" rel="stylesheet">
+	<link href="./css/style.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  	<!-- menu -->
+  	<div class="container bg-2" id="#top">
+		<nav class="navbar navbar-fixed-top navbar-inverse container">
+			<div class="container">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Accueil</a> </li>
+					<li><a href="article.html">Articles</a></li>
+					<li><a href="training.html">Training</a></li>
+					<li><a href="biographie.html">Biographie</a></li>
+					<li class="active"><a href="contact.html">Contact</a></li>						
+				</ul>
+			  <div class="navbar-form navbar-right inline-form">
+				<div class="form-group">
+				  <input type="search" class="input-sm form-control" placeholder="Recherche">
+				  <button type="submit" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-search"></span> Chercher</button>
+				</div>
+			  </form>
+			</div>
+		</nav>
+	</div>
+	<!-- contact -->
+	<div class="container bg-3 padding-top-bottom margin-top">
+		<div class="col-md-12">
+			<div class="form-area">  
+				<form role="form">
+				<br style="clear:both">
+							<h3 class="well bg-3 margin-bottom" style="text-align: center;">Formulaire de contact</h3>
+							<div class="form-group">
+								<input type="text" class="form-control" id="nom" name="nom" placeholder="Nom" required>
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" id="prenom" name="prenom" placeholder="Prenom" required>
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" id="sujet" name="sujet" placeholder="Sujet" required>
+							</div>
+							<div class="form-group">
+							<textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
+								<span class="help-block"><p id="characterLeft" class="help-block" style="color:white;">Vous avez atteint la limite de nombre de caractères !</p></span>                    
+							</div>
+					
+				<button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Envoyer</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Footer -->
+	<footer class="container bg-2 text-center padding-top-footer">
+		<div class="col-md-1">
+			<img src="images/facebook.ico" alt="Facebook"  class="img-responsive focus" style="width:80px;height:80px" onclick="window.open('https://www.facebook.com/lowikfitt/?fref=ts');">
+		</div>
+		<div class="col-md-1">
+			<img src="images/twitter-logo-silhouette.png" alt="Twitter" class="img-responsive focus" style="width:80px;height:80px" onclick="window.open('https://twitter.com/lowikfitt');">
+		</div>
+		<div class="col-md-1">
+			<img src="images/youtube-logotype.png" alt="Youtube"  class="img-responsive focus" style="width:80px;height:80px"  onclick="window.open('https://www.youtube.com/channel/UC_i-igE_T12eWoiroWXNuFw');">
+		</div>
+		<div class="col-md-1">
+			<img src="images/instagram.ico" alt="Instagram"  class="img-responsive focus" style="width:80px;height:80px" onclick="window.open('https://www.instagram.com/lowikfitt/?hl=fr');">
+		</div>
+		<div class="col-md-7 margin-top">
+			<!--<li role="separator" class="divider"></li>-->
+			<p style="font-size: 12px;"> Site web fait par Kristen VIGUIER - CSS Bootstrap - <a href="#myBio">Lowik</a></p>
+		</div>
+		<div class="col-md-1">
+			<a class="up-arrow" href="#top" data-toggle="tooltip" title="" data-original-title="TO TOP" style="color:white;">
+				<span class="glyphicon glyphicon-chevron-up"></span>
+			</a>
+		</div>
+	</footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
